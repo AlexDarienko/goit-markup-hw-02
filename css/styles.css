@@ -139,7 +139,6 @@ ul, ol {
 .team-list {
     list-style: none;
     margin: 0;
-    grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
 }
 
 .team-item {
@@ -186,7 +185,6 @@ ul, ol {
 .portfolio-list {
     list-style: none;
     margin: 0;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
 }
 
 .portfolio-item {
@@ -238,9 +236,10 @@ ul, ol {
 }
 
 .footer-text {
+    --light-text: #F4F4FD;
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--light-text, #f4f4fd);
+    color: var(--light-text);
     margin: 0;
 }
