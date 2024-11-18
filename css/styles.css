@@ -10,7 +10,6 @@ a {
 
 ul, ol {
     list-style: none;
-    padding: 0;
     margin: 0;
 }
 
@@ -63,7 +62,6 @@ ul, ol {
 /* Hero section */
 .hero-section {
     background-color: #2e2f42;
-    padding: 40px 20px;
     text-align: center;
 }
 
@@ -84,7 +82,6 @@ ul, ol {
     letter-spacing: 0.04em;
     color: #ffffff;
     border: none;
-    padding: 12px 24px;
     cursor: pointer;
 }
 
@@ -100,7 +97,6 @@ ul, ol {
 
 .features-list {
     list-style: none;
-    padding: 0;
     margin: 0;
 }
 
@@ -128,7 +124,6 @@ ul, ol {
 /* Team section */
 .team-section {
     background-color: #F4F4FD;
-    padding: 40px 20px;
 }
 
 .section-title {
@@ -143,25 +138,17 @@ ul, ol {
 
 .team-list {
     list-style: none;
-    padding: 0;
     margin: 0;
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
-    gap: 20px;
 }
 
 .team-item {
     background-color: #FFFFFF;
     text-align: center;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .team-photo {
-    display: block;
     margin: 0 auto 15px;
-    border-radius: 8px;
 }
 
 .team-name {
@@ -184,7 +171,6 @@ ul, ol {
 /* Portfolio section */
 .portfolio-section {
     background-color: #F4F4FD;
-    padding: 40px 20px;
 }
 
 .section-title {
@@ -199,25 +185,17 @@ ul, ol {
 
 .portfolio-list {
     list-style: none;
-    padding: 0;
     margin: 0;
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-    gap: 20px;
 }
 
 .portfolio-item {
     background-color: #FFFFFF;
     text-align: center;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-image {
-    display: block;
     margin: 0 auto 15px;
-    border-radius: 8px;
 }
 
 .portfolio-title {
@@ -241,7 +219,6 @@ ul, ol {
 .footer {
     background-color: #2e2f42;
     text-align: center;
-    padding: 20px 10px;
 }
 
 .footer-logo {
@@ -253,7 +230,6 @@ ul, ol {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    display: inline-block;
     margin-bottom: 15px;
 }
 
